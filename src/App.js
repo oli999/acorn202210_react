@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
+  let myName="김구라";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <h1>인덱스 페이지 입니다.</h1>
+      {/* myName 이라는 변수 안에 있는 내용 사용하기 */}
+      <p>내이름은 <strong>{myName}</strong></p>
+      <button className="btn btn-primary">눌러 보셈</button>
     </div>
   );
 }
