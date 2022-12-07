@@ -2,7 +2,7 @@ import { Component } from "react";
 
 //함수형 component 에서 클래스형 component 로 변경하기
 class App extends Component{
-''
+
   //render() 메소드 에서 리턴해주는 jsx 를 활용해서 화면 구성이 된다.
   render(){
     let myName="김구라";
