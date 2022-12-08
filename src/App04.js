@@ -27,6 +27,12 @@ class App extends Component{
                 달리려면 체크 <input type="checkbox" checked={this.state.isRun} onChange={this.handleChange}/>
                 <br />
                 { this.state.isRun ? <p>달려요</p> : <p>달리지 않아요</p>}
+                <h2>아래가 로그인중인지 확인!</h2>
+                { true && <p>구라님 로그인중...</p>}
+                <h2>아래가 로그인중인지 확인!</h2>
+                { false && <p>구라님 로그인중...</p>}
+                <h2>아래가 로그인중인지 확인!</h2>
+                { this.state.isRun && <p>구라님 로그인중...</p>}
             </div>
         );
     }
